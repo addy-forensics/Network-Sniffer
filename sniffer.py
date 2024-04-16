@@ -7,7 +7,7 @@ def analyze_packet(packet):
     print(packet.summary())
 
 def main():
-    interface = "Wi-Fi"
+    interface = "Wi-Fi" #instead of Wi-Fi write your network interface here, You can check it by using "ipconfig" command on windows command line, and "ifconfig" command on linux terminal.
     sniff_packets(interface)
 
 if __name__ == "__main__":
